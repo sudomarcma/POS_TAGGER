@@ -21,15 +21,15 @@ This POS Tagger is a Python-based tool that uses machine learning models to pred
 
 ## Usage
 
-1. **Changing the Corpus and Gold Standard**:
-- In both `pos_tagger.py` and `evaluate.py`, locate the line with `gold_standard_file = 'train.txt.gz'`.
-- Replace `'train.txt.gz'` with the path to your desired corpus file.
+1. **Changing the Corpus and Gold Standard**:  
+- In `pos_tagger.py` replace `'train.txt.gz'` with the path to your desired corpus file.
+- In `evaluate.py` replace `'train.txt.gz'` with the path to your Gold Standard file.
 
-2. **Training Models**:
+2. **Training Models**:  
 Run the `pos_tagger.py` script and select the desired model to train.
 
-3. **Evaluating Models**
+3. **Tag Models**  
+Run the `tag_label.py` script and select the desired model to tag.
+
+4. **Evaluating Models**  
 Run the `evaluate.py` script to generate an evaluation report.
-
-
-
