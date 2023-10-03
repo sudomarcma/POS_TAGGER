@@ -28,7 +28,7 @@ This POS Tagger is a Python-based tool that uses machine learning models to pred
 2. **Training Models**:  
 Run the `pos_tagger.py` script and select the desired model to train.
 
-3. **Tag Models**  
+3. **Tag POS**  
 Run the `tag_label.py` script and select the desired model to tag.
 
 4. **Evaluating Models**  
